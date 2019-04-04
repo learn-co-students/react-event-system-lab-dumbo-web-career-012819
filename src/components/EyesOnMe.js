@@ -3,11 +3,11 @@ import React, { Component } from 'react';
 
 class EyesOnMe extends Component {
 
-  onFocus = (event) => {
+  onFocus = () => {
     console.log('Good!')
   }
 
-  onBlur = (event) => {
+  onBlur = () => {
     console.log('Hey! Eyes on me!')
   }
 

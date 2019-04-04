@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 
 class Keypad extends Component {
 
-  onKeyUp = (event) => {
+  onKeyUp = () => {
     console.log('Entering password...')
   }
 
